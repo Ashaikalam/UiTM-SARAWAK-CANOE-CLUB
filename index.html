@@ -80,24 +80,28 @@ img {
     height: auto;
 }
 
-.main-buttons {
+.buttons {
     overflow: hidden;
 }
 
-.main-buttons button {
-    float: left;
-    margin-right: 10px;
-    background-color: #DBB1F1;
-    color: white;
-    border: none;
+.buttons a {
+    display: inline-block;
     padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
     border-radius: 5px;
-    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: mediumorchid;
+    text-decoration: none;
     transition: background-color 0.3s ease-in-out;
-        }
+}
 
-.main-buttons button:hover {
-    background-color: #9F5F9E;
+
+.buttons a:hover {
+    background-color: mediumpurple;
+    color: white;
+    text-decoration: none; 
 }
 
     
@@ -141,9 +145,9 @@ footer {
         </section>
         
         <section>
-            <div class="main-buttons">
-            <button onclick="#">NAME LIST OF ACTIVE MEMBERS</button>
-            <button onclick="team.html">EXCUTIVE COMMITTEE (EXCO)</button>
+            <div class="buttons">
+            <a href="member.html">NAME LIST OF ACTIVE MEMBERS</a>
+            <a href="team.html">EXCUTIVE COMMITTEE (EXCO)</a>
         </div>
         </section>
         
