@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UiTM Sarawak Canoe Club</title>
+<style>
+    body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(bck3.png);
+}
+
+header {
+    background-color: #DBB1F1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+    
+    nav a:hover{
+    display: block;
+    background-color: #DBB1F1;
+    color: blue;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.vision {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.organization-chart {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-buttons {
+    overflow: hidden;
+}
+
+.main-buttons button {
+    float: left;
+    margin-right: 10px;
+    background-color: #DBB1F1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+        }
+
+.main-buttons button:hover {
+    background-color: #9F5F9E;
+}
+
+    
+footer {
+    background-color: #DBB1F1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+    
+</style>
+</head>
+
+<body>
+    <header>
+        <img src="logo%20uscc.png" width="50px">
+        <h1>UiTM Sarawak Canoe Club</h1>
+        <p>"Together We Strive As One"</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="highlights.html">HIGHLIGHTS</a></li>
+            <li><a href="eventnews.html">EVENT NEWS</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="vision">
+            <h2>Our Vision</h2>
+            <p><b>"Paddling Towards Excellence, Unity, and Environmental Stewardship"</b></p>
+            <p>Our vision for the UiTM Sarawak Canoe Club is to be a dynamic and leading force in fostering a community of water sports enthusiasts, promoting excellence, unity, and environmental stewardship. We envision a club where members are inspired to push their limits, build lasting connections, and contribute to the well-being of our natural surroundings.</p>
+        </section>
+
+        <section class="organization-chart">
+            <h2>Organization Chart</h2>
+            <img src="chart.png" alt="Organization Chart">
+        </section>
+        
+        <section>
+            <div class="main-buttons">
+            <button onclick="#">NAME LIST OF ACTIVE MEMBERS</button>
+            <button onclick="team.html">EXCUTIVE COMMITTEE (EXCO)</button>
+        </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 UiTM Sarawak Canoe Club.</p>
+        <p>All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
